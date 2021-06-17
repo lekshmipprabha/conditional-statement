@@ -12,14 +12,20 @@ main()
    {
       case1:
          printf("you picked pizza.");
+      break;
       case2:
          printf("you picked burger.");
+      break;
       case3:
           printf("you picked pasta.");
+      break;
       case4:
           printf("you picked french fries.");
+      break;
       case5:
            printf("you picked sandwich.");
+      break;
        default:printf("invalid choice");
      }
+     return 0;
   }
